@@ -110,7 +110,7 @@ header{
     width: 100%;
     min-height: 100%;
     position: relative;
-    background: url(img/car\ website-1.png);
+    background: url();
     margin: 5rem 0 1rem;
     background-repeat: no-repeat;
     background-position: center right;
@@ -118,6 +118,13 @@ header{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(3,2fr);
+}
+.home img{
+    width: 180%;
+    position: relative;
+    left: 550px;
+    top: -400px;
+
 }
 .text h1{
     margin: 10rem 0 1rem;
@@ -141,9 +148,9 @@ header{
     align-items: center;
     gap: 1rem;
     position: absolute;
-    bottom: -5.5rem;
+    bottom: 23rem;
     right: 28rem;
-    background: var(--text-color);
+    background: grey;
     padding: 20px;
     border-radius: 0.5rem;
 }
@@ -357,10 +364,11 @@ header{
 .reviews-container .box .stars .bx{
     color: #ffac38;
 }
+
 .inner-footer{
     margin: 0;
     padding: 0;
-    background-color: #eeeff1;
+    background-color: #fff;
 }
 .social-links{
     padding: 3%;
@@ -379,6 +387,13 @@ header{
 }
 .outer-footer{
     color: #e9e6e6;
+}
+
+@media (max-width:1080px)
+{
+    .home img{
+        display: none;
+    }
 }
 /* Making Responsive */
 @media (max-width:991px){
@@ -478,7 +493,7 @@ header{
         flex-direction: column;
     }
     .inner-footer{
-        width: 284px;
+        width: 100%;
     }
     .form-container{
         padding-top: 2rem;
