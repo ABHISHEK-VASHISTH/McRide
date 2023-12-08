@@ -2,7 +2,7 @@
 >Vehicle Rental Solutions
 https://abhishek-vashisth.github.io/McRide/
 ##HOW IT WORKS:-
->Visit the website.
+><br>Visit the website.</br>
 >Choose the car of your choice.
 >Click on Rent Now.
 >Fill the form to rent the car.
