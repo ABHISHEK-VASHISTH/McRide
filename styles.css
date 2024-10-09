@@ -13,6 +13,7 @@
 
 body{
     background-color: #171414;
+    overflow: hidden;
 }
 :root{
     --main-color: #fe5b3d;
@@ -20,9 +21,14 @@ body{
     --text-color: #444;
     --gradient: linear-gradient(#fe5b3d,#ffac38);
 }
-/* Custom Scroll Bar */
-html::-webkit-scrollbar{
-    width: 0.5rem;
+
+html{
+    overflow-y: auto;
+}
+
+html::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
 }
 html::-webkit-scrollbar-track{
     background:transparent;
